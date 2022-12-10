@@ -12,7 +12,7 @@ end
 Events.OnCreatePlayer.Add(playerCreated)
 ```
 ## List of events
-Note: 'Player Number' refers to the number returned by IsoPlayer:getPlayerNum(), most commonly used for getSpecificPlayer(n)
+Note: 'Player Index' refers to the number returned by IsoPlayer:getPlayerNum(), most commonly used for getSpecificPlayer(n)
 | Name | Parameters |
 | :--- | :--- |
-| [OnCreatePlayer](/Events/OnCreatePlayer) | Player Number, [IsoPlayer](https://projectzomboid.com/modding/zombie/characters/IsoPlayer.html) |
+| [OnCreatePlayer](/Events/OnCreatePlayer.md) | Player Index, [IsoPlayer](https://projectzomboid.com/modding/zombie/characters/IsoPlayer.html) |
