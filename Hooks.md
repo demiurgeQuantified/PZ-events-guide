@@ -1,6 +1,8 @@
 # Hooks
 ## What is a hook?
+Hooks are similar to events, but can return a value that the vanilla code will use.
 ## List of Hooks
+Note: Objects passed/triggering can sometimes children of the classes specified (for example, an [IsoPlayer](https://projectzomboid.com/modding/zombie/characters/IsoPlayer.html) may be passed in place of an [IsoGameCharacter](https://projectzomboid.com/modding/zombie/characters/IsoGameCharacter.html))
 | Hook | Parameters | Triggered by |
 | :--- | :--- | :--- |
 | [AutoDrink](/Hooks/AutoDrink.md) | [IsoGameCharacter](https://projectzomboid.com/modding/zombie/characters/IsoGameCharacter.html) character | [IsoGameCharacter:autoDrink()](https://projectzomboid.com/modding/zombie/characters/IsoGameCharacter.html#autoDrink()) |
