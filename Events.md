@@ -255,13 +255,6 @@ Note: 'Player Index' refers to the number returned by IsoPlayer:getPlayerNum(), 
 | [OnUseVehicle](/Events/OnUseVehicle.md) |
 | [OnVehicleHorn](/Events/OnVehicleHorn.md) |
 | Deprecated Events: |
-| AutoDrink |
-| UseItem |
-| Attack |
-| CalculateStats |
-| WeaponHitCharacter |
-| WeaponSwing |
-| WeaponSwingHitPoint |
 | OnBeingHitByZombie |
 
 ## See also:
