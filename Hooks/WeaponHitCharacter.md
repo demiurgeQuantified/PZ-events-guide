@@ -1,9 +1,14 @@
 # WeaponHitCharacter
-## Parameters
-[IsoGameCharacter](https://projectzomboid.com/modding/zombie/characters/IsoGameCharacter.html) attacker, [IsoGameCharacter](https://projectzomboid.com/modding/zombie/characters/IsoGameCharacter.html) target, [HandWeapon](https://projectzomboid.com/modding/zombie/inventory/types/HandWeapon.html) weapon, float damageSplit
 ## Trigger Condition
-This hook is called when a weapon successfully hits a character, but before any effects are applied. It is not called by zombies.  
+This hook is called when a weapon successfully hits a character, but before any effects are applied. It is not called when zombies are hit.  
 Triggered by: [IsoGameCharacter:Hit()](https://projectzomboid.com/modding/zombie/characters/IsoGameCharacter.html#Hit(zombie.inventory.types.HandWeapon,zombie.characters.IsoGameCharacter,float,boolean,float,boolean))
+## Parameters
+| Type | Name | Description |
+| :--- | :--- | :--- |
+| [IsoGameCharacter](https://projectzomboid.com/modding/zombie/characters/IsoGameCharacter.html) | attacker | The player swinging the weapon |
+| [IsoGameCharacter](https://projectzomboid.com/modding/zombie/characters/IsoGameCharacter.html) | target | The player being hit by the weapon |
+| [HandWeapon](https://projectzomboid.com/modding/zombie/inventory/types/HandWeapon.html) | weapon | The weapon used in the attack |
+| float | damageSplit | The damage the attack will deal |
 ## Return Values
 | Value | Effect |
 | :--- | :--- |
