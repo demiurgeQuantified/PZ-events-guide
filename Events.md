@@ -218,7 +218,6 @@ Note: 'Player Index' refers to the number returned by IsoPlayer:getPlayerNum(), 
 | [OnPressRackButton](/Events/OnPressRackButton.md) |
 | [OnPressWalkTo](/Events/OnPressWalkTo.md) |
 | [OnHitZombie](/Events/OnHitZombie.md) |
-| [OnBeingHitByZombie](/Events/OnBeingHitByZombie.md) |
 | [OnServerStatisticReceived](/Events/OnServerStatisticReceived.md) |
 | [OnDynamicMovableRecipe](/Events/OnDynamicMovableRecipe.md) |
 | [OnInitGlobalModData](/Events/OnInitGlobalModData.md) |
@@ -258,11 +257,12 @@ Note: 'Player Index' refers to the number returned by IsoPlayer:getPlayerNum(), 
 | Deprecated Events: |
 | AutoDrink |
 | UseItem |
-| Attack) |
+| Attack |
 | CalculateStats |
 | WeaponHitCharacter |
 | WeaponSwing |
 | WeaponSwingHitPoint |
+| OnBeingHitByZombie |
 
 ## See also:
 [Hooks](/Hooks.md)
