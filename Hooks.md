@@ -24,5 +24,3 @@ Note: Objects passed/triggering can sometimes be children of the classes specifi
 | Deprecated hooks: |
 | UseItem |
 | WeaponSwingHitPoint |
-## See also:
-[Events](/Events.md)
